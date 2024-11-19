@@ -1,0 +1,175 @@
+.admin-container {
+width: 100vw;
+  min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+  }
+
+  .admin-title{
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: bold;
+  }
+
+  .admin-day{
+    font-size: 15px;
+    margin: 4px 0;
+  }
+  .admin-date{
+    font-size: 14px;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+.react-datepicker__time-list-item{
+  cursor: pointer;
+}
+
+.react-datepicker__header .react-datepicker-time__header{
+  font-size: 12px;
+  text-wrap: wrap;
+}
+  .input-container > label{
+    margin: 2px 0;
+  }
+
+  input{
+padding: 4px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slots-list-container{
+position: relative;
+    display: flex;
+    flex-direction: column;
+padding: 20px 40px;
+max-height: 400px;
+overflow-y: scroll;
+
+margin:40px auto;
+  }
+
+  .booked-slots-list-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+padding: 20px 40px;
+max-height: 400px;
+overflow-y: scroll;
+
+margin:40px auto;
+  }
+
+  .booked-slots-list-container > h1{
+    font-size: 1.4rem;
+    border-bottom: 1px solid;
+    margin: 10px;
+
+  }
+
+  .slot{
+
+    width: 300px;
+    height: 80px;
+    box-shadow: 0px 0px 12px 1px;
+    margin: 10px 0;
+    display: flex;
+align-items: center;
+text-align: center;
+
+  }
+
+  .time-slot{
+    min-height: 100%;
+    display: flex;
+   flex: 1;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+ 
+    gap: 6px;
+    border-left: 2px solid;
+background-color: rgb(169, 247, 247);
+  }
+
+  .status-slot{
+   
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+text-align: center;
+justify-content: center;
+  align-items: center;
+  width: max-content;
+  margin: auto;
+padding: 10px 0;
+  }
+
+.status-ordered{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+gap: 4px;
+  }
+  .status-ordered > p{
+
+    font-size: 14px;
+  }
+.remove-slot{
+position: absolute;
+right: 0;
+  cursor: pointer;
+  font-size: 28px;
+
+}
+  .admin-container > button{
+    padding: 6px 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 0px 1px;
+    cursor: pointer;
+    margin: 6px 0;
+  }
+  
+.slot-message{
+  margin: 8px 0;
+}
+
+.put-message-btn{
+text-wrap: wrap;
+max-width: 60px;
+  position: absolute;
+  display: flex;
+ padding: 0;
+
+ justify-content: center;
+  top: 10px;
+  left: 10px;
+}
+
+.react-calendar__tile{
+  cursor: pointer;
+}
+
+.remove-past-slots{
+  text-wrap: wrap;
+max-width: 60px;
+  position: absolute;
+  display: flex;
+ padding: 0;
+
+ justify-content: center;
+  top: 10px;
+  right: 10px;
+}

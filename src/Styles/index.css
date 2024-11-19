@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Hebrew';
+  src: url('../../public/hebrew.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Hebrew2';
+  src: url('../../public/hebrew2.ttf') format('truetype'),
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: 'Hebrew', sans-serif;
+}
+
+body{ user-select: none;
+  -webkit-user-select: none; /* עבור דפדפן Chrome */
+  -moz-user-select: none; /* עבור דפדפן Firefox */
+  -ms-user-select: none; /* עבור דפדפן Internet Explorer */}
+

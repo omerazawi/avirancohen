@@ -1,0 +1,36 @@
+.Messeges-container{
+    display: flex;
+    flex-direction: column;
+    margin:40px auto;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    min-height: 200px ;
+padding: 10px;
+ border: 2px dotted black;
+ border-radius: 10px;
+}
+
+.messeges-title-container{ 
+    display: flex;
+    gap: 4px;
+    padding: 0px 0px 5px 0px;
+}
+
+.messeges-icon{
+    font-size: 18px;
+}
+
+.messeges-title{
+    font-size: 18px;
+}
+
+.messege{
+margin: 20px 0;
+
+}
+
+.messege > p{
+display: flex;
+text-wrap: wrap;
+}

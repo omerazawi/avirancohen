@@ -1,0 +1,107 @@
+.Form-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   height: 100vh; 
+
+}
+.Form-title{
+    font-size: 16px;
+    margin: 10px 0;
+
+}
+.form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding:20px 60px;
+    margin-top: 20px;
+    width: 90vw;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 15px 0px;
+
+}
+.label-container{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    gap: 4px;
+    text-align: start;
+    width: 80%;
+    
+    
+}
+
+.label-container label{
+    margin: 0 10px;
+    width: 100%;
+    font-size: clamp(0.6rem,1rem, 1.5rem);
+    font-weight: 600;
+}
+
+
+.label-container input{
+    min-width: 100%;
+    font-family: sans-serif;
+    padding:8px 20px;
+width: fit-content;
+}
+.label-container input::placeholder{
+    font-family: sans-serif;
+}
+
+.message-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.message-container > p{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.message-navigator-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+ gap: 4px;
+ cursor: pointer;
+}
+
+.navigator-icon{
+    position: absolute;
+    font-size: 18px;
+    right: 40px;
+}
+
+.message-navigator{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.SubmitButton{
+    width: clamp(150px,280px,550px);
+    margin: 40px 0px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 0px black;
+    cursor: pointer;
+    background-color: aquamarine;
+    transform: scale(1);
+    transition: all 200ms linear;
+    border: none;
+}
+
+.SubmitButton:hover{
+    transform: scale(1.04);
+}

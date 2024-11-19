@@ -1,0 +1,25 @@
+
+.loading-container {
+  display: flex;
+    margin: 50px auto;
+    padding: 10px 0;
+    width: fit-content;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 25px;
+    background: radial-gradient(circle closest-side,#000 94%,#0000) left/calc(200% - 1em) 100%;
+    animation: l24 1s infinite alternate linear;
+  }
+  .loading-container::before {
+    content: "מחפש תור פנוי...";
+    line-height: 0.8em;
+    color: #0000;
+    background: inherit;
+    background-image: radial-gradient(circle closest-side,#fff 94%,#000);
+    -webkit-background-clip:text;
+            background-clip:text;
+  }
+  
+  @keyframes l24{
+    100%{background-position: right}
+  }

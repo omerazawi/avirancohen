@@ -1,0 +1,30 @@
+.alert-container{
+  position: fixed;
+ min-width: 100%;
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: rgba(0,0,0,0.6);
+z-index: 9999999;
+}
+
+.alert{
+    background-color: #ffff;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+width: 80%;
+    border: 2px solid;
+gap: 30px;
+}
+
+.alert > p{
+    font-size: 20px;
+}
+
+.alert > button{
+    cursor: pointer;
+    padding: 4px 10px;
+}
